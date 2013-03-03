@@ -1,0 +1,95 @@
+====== Apache/PHP ======
+
+===== Instalar pacotes e Habilitar o módulo rewrite =====
+
+Em Debian/Ubuntu:
+
+apt-get install apache2 php5 php-apc ssh postgresql php5-pgsql phppgadmin language-pack-pt svn
+a2enmod rewrite
+Em Fedora/CentOS:
+
+yum install apache2 php5 php-apc ssh postgresql php5-pgsql phppgadmin language-pack-pt svn
+ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/rewrite.load
+
+===== Criar uma entrada para a pasta do sistema (ou um virtual host) com modrewrite habilitado =====
+
+No arquvivo:
+/etc/apache2/sites-available/default
+Adicionar as linhas:
+Alias / /var/www/systems
+<Directory /var/www/systems>
+      AllowOverride All
+</Directory>
+Obs: O importante é ter o AllowOverride All, tanto faz se for dentro do default ou num outro virtual host configurado.
+Reiniciar Apache:
+sudo /etc/init.d/apache2 restart
+
+==== Configuração do PHP ====
+
+Em algumas instalações alguns desses módulos ou extensões do PHP podem vir instalados por padrão, então é preciso verificar quais não estão instalados e depois executar os procedimentos. Esses módulos listados aqui são os que se sabe que faltaram em alguma instalação do sistema, podem haver outros módulos que desabilitados dependendo da configuração de cada host e sistema operacional.
+
+=== Instalação do APC ===
+
+Módulo necessário para o funcionamento do Cache do Cake.
+http://www.php.net/manual/en/book.apc.php
+
+A instalação pode ser feita pelo apt-get no caso de ubuntu ou similar:
+
+ apt-get install php-apc 
+Ou através do instalador do PECL, nesse caso, instalando via PEAR:
+
+apt-get (ou yum) install php-pear
+pecl install apc
+Depois é preciso habilitar o modulo no php.ini
+
+extension=apc.so
+
+== PCRE ==
+
+http://chrisjean.com/2009/01/31/unicode-support-on-centos-52-with-php-and-pcre/
+
+
+== ApacheOtimizacoes ==
+
+=== Security ===
+
+There are two directives that you need to add, or edit in your httpd.conf file:
+
+ServerSignature Off
+ServerTokens Prod
+http://www.petefreitag.com/item/505.cfm
+
+==== mod_pagespeed ====
+
+Mais importante. Há pacotes para Debian/Ubuntu e CentOS/Fedora, 32 e 64 bits. http://code.google.com/intl/pt-BR/speed/page-speed/download.html
+
+===== mod_expires =====
+
+Serve para fazer cache pelo browser de arquivos estáticos como png, jpg, gif, css, ... Evitando requisições ao servidor.
+
+sudo a2enmod expires
+sudo nano /etc/apache2/httpd.conf
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresByType image/gif "access plus 12 month" 
+    ExpiresByType image/jpeg "access plus 12 month" 
+    ExpiresByType image/png "access plus 12 month" 
+    ExpiresByType text/css "access plus 12 month" 
+    ExpiresByType application/x-javascript "access plus 1 month" 
+    ExpiresByType application/pdf "access plus 1 day" 
+
+<IfModule mod_headers.c>
+# Turn on Expires and set default to 0, nao usado ExpiresDefault A0
+# Set up caching on media files for 1 month
+<FilesMatch "\.(gif|jpg|jpeg|png|css|js|swf|flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+ExpiresDefault "access plus 12 month" 
+Header append Cache-Control "public" 
+</FilesMatch>
+
+</IfModule>
+</IfModule>
+
+====== mod_deflate ======
+
+Faz compressão dos dados ao enviar para o browser, implica em maior carga para o servidor, mas menor tempo de carregamento para o usuário.
+http://www.howtoforge.com/apache2_mod_deflate

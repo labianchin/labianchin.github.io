@@ -1,0 +1,102 @@
+====== Bacharelado em Ciência da Computação - UFRGS ======
+
+
+Nesta página estão disponíveis alguns trabalhos e provas feitos por mim ao longo de minha graduação em Ciência da Computação (CIC) na UFRGS.
+
+<note tip>Os trabalhos e provas aqui publicados servem apenas de auxílio.</note>
+
+<note tip>São distribuídos sob licença [[http://creativecommons.org/licenses/by-nc-sa/3.0/|CC Attribution-Noncommercial-Share Alike 3.0 Unported]].</note>
+
+<note warning>Em caso de problemas com esse material, favor entrar em contato.</note>
+
+
+
+===== 2010/1 =====
+== FUNDAMENTOS DE PROCESSAMENTO DE IMAGENS  (INF01046) ==
+== MODELOS DE LINGUAGEM DE PROGRAMAÇÃO  (INF01121) ==
+== OTIMIZAÇÃO COMBINATÓRIA  (INF05010) ==
+== SEMÂNTICA FORMAL N  (INF05516) ==
+== SISTEMAS OPERACIONAIS I N  (INF01142) ==
+
+===== 2009/2 =====
+== CATEGORIAS COMPUTACIONAIS N  (INF05006) ==
+  * [[cic:categorias#prova_2|Prova 2]]
+== COMPLEXIDADE DE ALGORITMOS - B  (INF05515) ==
+  * {{:pdfs:cpxmed.pdf|Trabalho Complexidade Média}}
+  * {{:pdfs:cpxpd.pdf|Trabalho Programação Dinâmica}}
+== COMPUTAÇÃO SIMBÓLICA E NUMÉRICA  (INF05513) ==
+  * {{:pdfs:ieee754.pdf|IEEE 754}}
+== FUNDAMENTOS DE BANCO DE DADOS  (INF01145) ==
+== ORGANIZAÇÃO DE COMPUTADORES B  (INF01113) ==
+  * {{:pdfs:orgbt1.pdf|Trabalho 1}}
+  * {{:pdfs:orgbt2.pdf|Trabalho 2}}
+== TÉCNICAS DE CONSTRUÇÃO DE PROGRAMAS  (INF01120) ==
+  * {{:trabs:tcp-final.7z|Trabalho Final}}
+
+===== 2009/1 =====
+
+== ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES II (INF01112) ==
+  * {{:pdfs:arq2-t1.pdf|Trabalho 1}}
+  * {{:pdfs:arq2-t2.pdf|Trabalho 2}}
+== CLASSIFICAÇÃO E PESQUISA DE DADOS (INF01124) ==
+  * {{:trabs:cpd_quest.7z|Questões}}
+  * {{:trabs:cpd_final.zip|Trabalho Final}}
+== LINGUAGENS FORMAIS E AUTÔMATOS N (INF05005) ==
+  * {{:trabs:formais-final.rar|Trabalho Final}}
+== PROBABILIDADE E ESTATÍSTICA (MAT02219) ==
+  * [[cic:probabilidade#prova_1|Prova 1]]
+  * [[cic:probabilidade#prova_2|Prova 2]]
+  * {{:pdfs:prob-final.pdf|Trabalho Final}}
+== TÉCNICAS DIGITAIS PARA COMPUTAÇÃO (INF01118) ==
+  * [[cic:td#prova_1|Prova 1]]
+  * [[cic:td#prova_2|Prova 2]]
+  * {{:cic:tdlabs:ap02.pdf|AP02}} ({{:cic:tdlabs:td118ap02.pdf|Especificação}})
+  * {{:cic:tdlabs:ap03.pdf|AP03}} (Especificação)
+  * {{:cic:tdlabs:ap04.pdf|AP04}} (Especificação)
+  * {{:cic:tdlabs:ap05.pdf|AP05}} (Especificação)
+  * {{:cic:tdlabs:ap06.pdf|AP06}} ({{:cic:tdlabs:td118ap06.pdf|Especificação}})
+  * {{:cic:tdlabs:ap07.pdf|AP07}} ({{:cic:tdlabs:td118ap07.pdf|Especificação}})
+  * AP08 ({{:cic:tdlabs:td118ap08.pdf|Especificação}}) - Não disponível
+  * {{:cic:tdlabs:ap09.pdf|AP09}} ({{:cic:tdlabs:td118ap09.pdf|Especificação}})
+  * {{:cic:tdlabs:ap10.pdf|AP10}} ({{:cic:tdlabs:td118ap10.pdf|Especificação}})
+  * {{:cic:tdlabs:ap11.pdf|AP11}} ({{:cic:tdlabs:td118ap11.pdf|Especificação}})
+  * {{:cic:tdlabs:ap12.pdf|AP12}} ({{:cic:tdlabs:td118ap12.pdf|Especificação}})
+  * {{:cic:tdlabs:ap13.pdf|AP13}} ({{:cic:tdlabs:td118ap13.pdf|Especificação}})
+== TEORIA DA COMPUTAÇÃO N (INF05501) ==
+  * {{:pdfs:teo1.pdf|Trabalho 1}}
+  * {{:pdfs:teo2.pdf|Trabalho 2}}
+  * {{:pdfs:teo3.pdf|Trabalho 3}}
+  * {{:pdfs:teo4.pdf|Trabalho 4}}
+  * {{:pdfs:teo5.pdf|Trabalho 5}}
+  * {{:pdfs:teo6.pdf|Trabalho 6}}
+  * {{:pdfs:ordena.pdf|Ordena}}
+
+===== 2008/2 =====
+
+== ÁLGEBRA LINEAR I - A  (MAT01355) ==
+== ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES I  (INF01108) ==
+  * {{:trabs:ramses.rar|Trabalho Ramses}}
+  * {{:trabs:cesar.rar|Trabalho Cesar}}
+  * {{:trabs:intel.rar|Trabalho Intel}}
+== CÁLCULO E GEOMETRIA ANALÍTICA II - A  (MAT01354) ==
+== ESTRUTURAS DE DADOS  (INF01203) ==
+  * {{:trabs:ed-praticas.7z|Aulas Práticas}}
+  * {{:trabs:ed-final.7z|Trabalho Final}}
+== LÓGICA PARA COMPUTAÇÃO  (INF05508) ==
+  * {{:trabs:logica-final.7z|Trabalho final (Gödel)}}
+== TEORIA DOS GRAFOS E ANÁLISE COMBINATÓRIA  (INF05512) ==
+
+===== 2008/1 =====
+
+== ALGORÍTMOS E PROGRAMAÇÃO - CIC  (INF01202) ==
+  * {{:trabs:algoritimos_praticas.7z|Aulas Práticas}}
+  * {{:trabs:algoritimos_final.7z|Trabalho Final}}
+== CÁLCULO E GEOMETRIA ANALÍTICA I - A  (MAT01353) ==
+== FUNDAMENTOS DE ALGORITMOS  (INF05008) ==
+  * {{:trabs:scheme-listas-labs.rar|Listas e Laboratórios}}
+== INTRODUÇÃO À ARQUITETURA DE COMPUTADORES  (INF01107) ==
+  * {{:trabs:neander.rar|Trabalho Neander}}
+  * {{:trabs:ahmes.rar|Trabalho Ahmes}}
+== MATEMÁTICA DISCRETA B  (MAT01375) ==
+
+~~DISCUSSION~~

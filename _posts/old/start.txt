@@ -1,0 +1,9 @@
+
+====== CAKE PHP ======
+
+Here I'll post some ideas about [[http://www.cakephp.org|Cake PHP]].
+
+
+{{blog>cakephp?10}}
+
+~~DISCUSSION~~

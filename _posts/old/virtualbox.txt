@@ -1,0 +1,28 @@
+====== VirtualBox ======
+
+===== Instalação =====
+
+Baixar e instalar Virtual Box do site http://www.virtualbox.org/wiki/Downloads
+
+===== Configuração de Portas =====
+
+NAT do VBox, sendo "virtualmachine" o nome da máquina.
+VBoxManage modifyvm "virtualmachine" --natpf1 "guestssh,tcp,,19022,,22" 
+VBoxManage modifyvm "virtualmachine" --natpf1 "guesthttp,tcp,,19080,,80" 
+VBoxManage modifyvm "virtualmachine" --natpf1 "guestpgsql,tcp,,19432,,5432" 
+VBoxManage modifyvm "virtualmachine" --natpf1 "guestssl,tcp,,19443,,443" 
+
+===== Firewall do Host =====
+
+iptables -t filter -A INPUT -p tcp --dport 19022 -j ACCEPT
+iptables -t filter -A INPUT -p tcp --dport 19080 -j ACCEPT
+iptables -t filter -A INPUT -p tcp --dport 19443 -j ACCEPT
+iptables -t filter -A INPUT -p tcp --dport 19432 -j ACCEPT
+
+===== Iniciar a VM ====
+
+su user -c VBoxHeadless -s virtualmachine &
+
+Executar o VirtualBox do servidor remotamente
+# ssh -XC user@server
+# VirtualBox

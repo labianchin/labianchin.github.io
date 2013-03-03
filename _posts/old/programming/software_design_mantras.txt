@@ -1,0 +1,7 @@
+====== Software Design Mantras ======
+
+
+  * DRY (Don’t repeat yourself)
+  * Thick Models, thin Controller, simple views, lot of elements (http://nuts-and-bolts-of-cakephp.com/2009/01/06/another-way-to-think-about-mvc/)
+  * Software quality: correctness, robustness, extendibility, reusability, compatibility, efficiency, portability, ease of use, functionality, timeliness
+  * Every line of code you write has a cost. It takes time to write it, it takes time to update it, and it takes time to read and understand it.

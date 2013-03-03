@@ -1,0 +1,9 @@
+====== Programming Challenges and Competitions ======
+
+Here there is some information of programming challenges and competitions like project euler, ACM ICPC (International Collegiate Programming Contest) and other UVa Problems.
+
+{{http://projecteuler.net/profile/labianchin.png|}}
+
+  * [[programming:euler|Project Euler]]
+  * [[programming:euler|UVa Problems]]
+  * [[http://uhunt.felix-halim.net/id/52491|uHunt]]
