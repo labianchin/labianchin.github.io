@@ -77,41 +77,41 @@ Aqui segue uma lista de tópicos que são fundamentais para se preparar para uma
 
 ## Livros e Material
 
-### Art of Programming Contest, Ahmed Shamsul Arefin
+#### Art of Programming Contest, Ahmed Shamsul Arefin
 
 [Link para o livro](http://acm.uva.es/problemset/Art_of_Programming_Contest_SE_for_uva.pdf)
 
 Livro bem básico e rápido. Problemas simples (e também antigos). Ótimo para começar.
 
-### The Hitchhiker’s Guide to the Programming Contests, Nite Nimajneb
+#### The Hitchhiker’s Guide to the Programming Contests, Nite Nimajneb
 
 Livro mais avançado, possuí vários conceitos básicos, mas que não caem diretamente em competições. Ler, entender e **levar para competições**.
 
-### Competitive Programming, Steven Halin
+#### Competitive Programming, Steven Halin
 
 Livro da cadeira de Desafios e Programação. Os problemas desse livro são dividos em nível de dificuldade e podem ser encontrados no [uHunt](http://uhunt.felix-halim.net/).
 
 
-### CS 97SI: Introduction to Competitive Programming Contests
+#### CS 97SI: Introduction to Competitive Programming Contests
 
 Curso da Universidade de Stanford. Na página há slides com muito conteúdo para estudar: [http://www.stanford.edu/class/cs97si/](http://www.stanford.edu/class/cs97si/)
 
 Há também a cola usada pela equipe de Stanford: [http://stanford.edu/~liszt90/acm/notebook.html](http://stanford.edu/~liszt90/acm/notebook.html).
 
-### Curso: Algorithms, Robert Sedgewick, Kevin Wayne
+#### Curso: Algorithms, Robert Sedgewick, Kevin Wayne
 
 Curso online da Universidade de Princeton. Baseado no livro [Algorithms (4th Edition)](http://www.amazon.com/gp/product/032157351X). Curso impotante para solidificar o conhecimento em algorítimos.
 
 * [Parte I do curso](https://www.coursera.org/course/algs4partI)
 * [Parte II do curso](https://www.coursera.org/course/algs4partII)
 
-### TopCoder Algorithm Tutorials
+#### TopCoder Algorithm Tutorials
 
 [https://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index](https://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index)
 
 Lista com artigos sobre os principais algoritimos e técnicas cobrados em competições de programação. Alguns são mais avaçados. O interessante é que os artigos são inteiramente focados em competições.
 
-## Sides de desafios
+## Sites de desafios
 
 Alguns sites com desafios para praticar são:
 

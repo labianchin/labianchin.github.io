@@ -1,16 +1,17 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year-:month-:day-:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Luís Armando Bianchin
-tagline: Site Tagline
+tagline: Site Tagline????
 author :
   name : Luís Armando Bianchin
   email : luis.armandob@gmail.com
@@ -83,7 +84,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : luisarmando
     livefyre :
       site_id : 123
     intensedebate :
@@ -101,7 +102,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-39361569-1'
     getclicky :
       site_id : 
     mixpanel :

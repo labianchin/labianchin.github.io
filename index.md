@@ -1,46 +1,22 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Luís Armando Bianchin
+tagline: 
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+I am a computer scientist. I have graduate from [Federal University of Rio Grande do Sul](http://ufrgs.br/) in 2012. My technical interests include programming contents and challenges, software engineering techniques, Software as a Service (SaaS), Artificial Intelligence, Machine Learning and Information Retrieval.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+I have created this blog as a replacement of my old wiki website [http://inf.ufrgrs.br/~labianchin](http://inf.ufrgrs.br/~labianchin). I intent to use this space to share some knowledge.
 
-## Update Author Attributes
+E-mail: luis.armandob [ a t ] gmail.com
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+Here are a list of posts of this blog:
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
