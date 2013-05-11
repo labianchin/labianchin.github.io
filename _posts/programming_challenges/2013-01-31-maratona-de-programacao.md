@@ -5,17 +5,17 @@ tags : [maratona, challenges, programming]
 ---
 {% include JB/setup %}
 
-Aqui eu coloco algumas dicas sobre Maratonas de Programação, uma das atividades que considero mais importantes para quem estuda computação.
+Aqui eu coloco algumas dicas sobre Maratonas de Programação, uma das atividades que considero das mais importantes para cientistas da computação.
 
 ## Background
 
-Entrei na UFRGS em 2008. Como em todo semestre há maratonas de programação na semana acadêmica, participei já no primeiro. 
+Entrei na UFRGS em 2008. Lá em todo semestre há maratonas de programação na semana acadêmica, participei já no primeiro. A primeira maratona sempre há alguns tropeços em como tratar entrada e saída. 
 
 Em 2009, montamos um time: eu, Kauê Silveira e Bruno Fiss. Nosso time chegou a final nacional. Infelizmente, não participei tanto pois estava mais focado em escrever um artigo para a bolsa :/
 
-Fiz a cadeira de Desafios de Programação em 2012/1. A cadeira é bem básica, mas fundamental para entender os principais fundamentos cobrados em maratonas.
+Fiz a cadeira de Desafios de Programação em 2012/1. A cadeira é básica, mas fundamental para entender (e revisar) os principais fundamentos cobrados em maratonas.
 
-Em 2012, formamos outro time: eu, André Ferreira e Leonardo Chatain. Duas semanas antes da regional, começamos a treinas pelas regionais passadas. Na regional em Pelotas/RS ficamos em primeiros colocados. Porém não ficamos contentes com nosso desempenho: eu travei num problema (que resolvi sem muito esforço mais tarde), todos não leram todos os problemas com cuidado (havia um fácil que foi mal interpretado) e num problema deveriamos saber sobre Euler Totient. :/
+Em 2012, formamos outro time. Duas semanas antes da regional, começamos a treinar pelas regionais passadas. Na regional em Pelotas/RS ficamos em primeiros colocados. Porém não ficamos contentes com nosso desempenho: eu travei num problema (que resolvi sem muito esforço mais tarde), não lemos todos os problemas com cuidado (havia um fácil que foi mal interpretado) e num problema deveriamos saber sobre Euler Totient. :/
 
 Continuamos praticando para a final. Alguns tópicos praticados foram: Suffix Array, LCP, Segment Tree, Rolling Hash, ... A final foi em Londrina/PR, ficamos em 12º. Entre os problemas, fiz um de Segment Tree rapidamente, porém por descuido eviei sem verificar alguns casos, tomamos uma penalidade. Em 2h de competição estavamos travados, resolvemos fazer um de grafos. Demoramos o resto da competição para fazer, sendo o André quem mais puxou nesse problema. Passamos nos últimos 3 minutos. Como nos últimos minutos de competição não dá para saber os resultados, só ficamos sabendo quando o placar foi anunciado no final da competição. 
 
