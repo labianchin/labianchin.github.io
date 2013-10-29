@@ -19,9 +19,72 @@ Em 2012, formamos outro time. Duas semanas antes da regional, começamos a trein
 
 Continuamos praticando para a final. Alguns tópicos praticados foram: Suffix Array, LCP, Segment Tree, Rolling Hash, ... A final foi em Londrina/PR, ficamos em 12º. Entre os problemas, fiz um de Segment Tree rapidamente, porém por descuido eviei sem verificar alguns casos, tomamos uma penalidade. Em 2h de competição estavamos travados, resolvemos fazer um de grafos. Demoramos o resto da competição para fazer, sendo o André quem mais puxou nesse problema. Passamos nos últimos 3 minutos. Como nos últimos minutos de competição não dá para saber os resultados, só ficamos sabendo quando o placar foi anunciado no final da competição. 
 
+## Livros e Material
+
+#### Art of Programming Contest, Ahmed Shamsul Arefin
+
+[Link para o livro](http://acm.uva.es/problemset/Art_of_Programming_Contest_SE_for_uva.pdf)
+
+Livro bem básico e rápido. Problemas simples (e também antigos). Ótimo para começar.
+
+#### The Hitchhiker’s Guide to the Programming Contests, Nite Nimajneb
+
+Livro mais avançado, possuí vários conceitos básicos, mas que não caem diretamente em competições. Ler, entender e **levar para competições**.
+
+#### Competitive Programming, Steven Halin
+
+Livro da cadeira de Desafios e Programação. Os problemas desse livro são dividos em nível de dificuldade e podem ser encontrados no [uHunt](http://uhunt.felix-halim.net/).
+
+
+#### CS 97SI: Introduction to Competitive Programming Contests
+
+Curso da Universidade de Stanford. Na página há slides com muito conteúdo para estudar: [http://www.stanford.edu/class/cs97si/](http://www.stanford.edu/class/cs97si/)
+
+Há também a cola usada pela equipe de Stanford: [http://stanford.edu/~liszt90/acm/notebook.html](http://stanford.edu/~liszt90/acm/notebook.html).
+
+#### Curso: Algorithms, Robert Sedgewick, Kevin Wayne
+
+Curso online da Universidade de Princeton. Baseado no livro [Algorithms (4th Edition)](http://www.amazon.com/gp/product/032157351X). Curso impotante para solidificar o conhecimento em algorítimos.
+
+* [Parte I do curso](https://www.coursera.org/course/algs4partI)
+* [Parte II do curso](https://www.coursera.org/course/algs4partII)
+
+#### TopCoder Algorithm Tutorials
+
+[https://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index](https://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index)
+
+Lista com artigos sobre os principais algoritimos e técnicas cobrados em competições de programação. Alguns são mais avaçados. O interessante é que os artigos são inteiramente focados em competições.
+
+#### Algoritimos mais importantes
+
+[http://www.quora.com/Algorithms/What-are-10-algorithms-one-must-know-in-order-to-solve-most-algorithm-challenges-puzzles/](http://www.quora.com/Algorithms/What-are-10-algorithms-one-must-know-in-order-to-solve-most-algorithm-challenges-puzzles/)
+
+Discussa feita no Quora sobre quais são os principais algoritmos para resolver desafios de programação.
+
+## Sites de desafios
+
+Alguns sites com desafios para praticar são:
+
+* [uHunt](http://uhunt.felix-halim.net/id/52491) - Usa o banco de problemas do [UVa](http://uva.onlinejudge.org/) e sugere outros problemas para serem resolvidos
+* [Topcoder](https://www.topcoder.com/)
+* [Codeforces](http://codeforces.com/)
+* [Hacker Rank Challenges](http://www.hackerrank.com) - Tem problemas interessantes e bem desafiadores. Algumas empresas usam esse site para recrutamento.
+* [Hacker.org](http://www.hacker.org/)
+* [Project Euler](https://projecteuler.net/) - Desafios matemáticos
+
+Algumas sites de competições são:
+
+* [Google Code Jam](https://code.google.com/codejam/)
+* [Facebook Hackercup](https://www.facebook.com/hackercup)
+* [Internet Problem Solving Contest - IPSC](http://ipsc.ksp.sk/)
+* [Challenge 24](http://ch24.org/)
+
+
 ## O que estudar
 
-Aqui segue uma lista de tópicos que são fundamentais para se preparar para uma maratona.
+Há uma discussão interessante no Quora sobre quais são os principais algoritmos: [Quora - What are 10 algorithms one must know in order to solve most algorithm challenges/puzzles?](http://www.quora.com/Algorithms/What-are-10-algorithms-one-must-know-in-order-to-solve-most-algorithm-challenges-puzzles)
+
+Abaixo coloco minha lista de tópicos que considero importante.
 
 ### Data Strucutres
 
@@ -74,57 +137,3 @@ Aqui segue uma lista de tópicos que são fundamentais para se preparar para uma
 * LCP
 
 **\* A lista está incompleta, ainda deve ser finalizada!!**
-
-## Livros e Material
-
-#### Art of Programming Contest, Ahmed Shamsul Arefin
-
-[Link para o livro](http://acm.uva.es/problemset/Art_of_Programming_Contest_SE_for_uva.pdf)
-
-Livro bem básico e rápido. Problemas simples (e também antigos). Ótimo para começar.
-
-#### The Hitchhiker’s Guide to the Programming Contests, Nite Nimajneb
-
-Livro mais avançado, possuí vários conceitos básicos, mas que não caem diretamente em competições. Ler, entender e **levar para competições**.
-
-#### Competitive Programming, Steven Halin
-
-Livro da cadeira de Desafios e Programação. Os problemas desse livro são dividos em nível de dificuldade e podem ser encontrados no [uHunt](http://uhunt.felix-halim.net/).
-
-
-#### CS 97SI: Introduction to Competitive Programming Contests
-
-Curso da Universidade de Stanford. Na página há slides com muito conteúdo para estudar: [http://www.stanford.edu/class/cs97si/](http://www.stanford.edu/class/cs97si/)
-
-Há também a cola usada pela equipe de Stanford: [http://stanford.edu/~liszt90/acm/notebook.html](http://stanford.edu/~liszt90/acm/notebook.html).
-
-#### Curso: Algorithms, Robert Sedgewick, Kevin Wayne
-
-Curso online da Universidade de Princeton. Baseado no livro [Algorithms (4th Edition)](http://www.amazon.com/gp/product/032157351X). Curso impotante para solidificar o conhecimento em algorítimos.
-
-* [Parte I do curso](https://www.coursera.org/course/algs4partI)
-* [Parte II do curso](https://www.coursera.org/course/algs4partII)
-
-#### TopCoder Algorithm Tutorials
-
-[https://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index](https://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index)
-
-Lista com artigos sobre os principais algoritimos e técnicas cobrados em competições de programação. Alguns são mais avaçados. O interessante é que os artigos são inteiramente focados em competições.
-
-## Sites de desafios
-
-Alguns sites com desafios para praticar são:
-
-* [uHunt](http://uhunt.felix-halim.net/id/52491) - Usa o banco de problemas do [UVa](http://uva.onlinejudge.org/) e sugere outros problemas para serem resolvidos
-* [Topcoder](https://www.topcoder.com/)
-* [Codeforces](http://codeforces.com/)
-* [Hacker Rank Challenges](http://www.hackerrank.com) - Tem problemas interessantes e bem desafiadores. Algumas empresas usam esse site para recrutamento.
-* [Hacker.org](http://www.hacker.org/)
-* [Project Euler](https://projecteuler.net/) - Desafios matemáticos
-
-Algumas sites de competições são:
-
-* [Google Code Jam](https://code.google.com/codejam/)
-* [Facebook Hackercup](https://www.facebook.com/hackercup)
-* [Internet Problem Solving Contest - IPSC](http://ipsc.ksp.sk/)
-* [Challenge 24](http://ch24.org/)
