@@ -14,8 +14,11 @@ tags : [postgresql, webdev, tools]
 ### Habilitar o acesso remoto ao servidor
 
 No arquivo:
+
     /etc/postgresql/8.x/main/postgresql.conf
+
 Editar o parâmetro:
+
     listen_addresses = '*'
 
 ### Habilitar acesso de usuários a bancos de dados
