@@ -9,7 +9,7 @@ I am a computer scientist. I have graduate from [Federal University of Rio Grand
 
 I have created this blog as a replacement of my old wiki website [http://inf.ufrgrs.br/~labianchin](http://inf.ufrgrs.br/~labianchin). I intent to use this space to share some knowledge.
 
-E-mail: luis.armandob [ a t ] gmail.com
+E-mail: luis.armandob \[ at \] gmail.com
 
 Here are a list of posts of this blog:
 
