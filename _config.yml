@@ -5,6 +5,8 @@ permalink: /:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
+name: Luís Armando Bianchin
+markdown: redcarpet
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -13,7 +15,7 @@ title : Luís Armando Bianchin
 tagline: .
 author :
   name : Luís Armando Bianchin
-  email : luis.armandob@gmail.com
+  email : blog@luisarmando.net
   github : luisarmando
   twitter : luisarmandob
   feedburner : luis.armandob
