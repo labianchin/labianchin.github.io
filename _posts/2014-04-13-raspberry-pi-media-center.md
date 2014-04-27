@@ -55,7 +55,7 @@ Also here it is my */etc/network/interfaces* configuration file. Note that I am 
     
 ### Backup
 
-It is possible to backup the entire SD card by plugging the SD card in your Linux of OSX and running the following command:
+It is possible to backup the entire SD card. Plug the SD card in your Linux or OSX and run the following command:
 
 	dd if=/dev/sdx of=/path/to/image bs=1M
 
