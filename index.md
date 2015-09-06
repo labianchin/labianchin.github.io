@@ -5,13 +5,13 @@ tagline:
 ---
 {% include JB/setup %}
 
-I am a computer scientist. I have graduate from [Federal University of Rio Grande do Sul](http://ufrgs.br/) in 2012. My technical interests include programming contents and challenges, software engineering techniques, Software as a Service (SaaS), Artificial Intelligence, Machine Learning and Information Retrieval.
+Software engineer, software developer consultant and computer scientist. Graduated from [Federal University of Rio Grande do Sul](http://ufrgs.br/) in 2012. Technical interests include programming contests and challenges, software engineering techniques, Functional Programming, DevOps, Artificial Intelligence, Machine Learning and Information Retrieval.
 
-I have created this blog as a replacement of my old wiki website [http://inf.ufrgrs.br/~labianchin](http://inf.ufrgrs.br/~labianchin). I intent to use this space to share some knowledge.
+This blog is a replacement of my old wiki website [http://inf.ufrgrs.br/~labianchin](http://inf.ufrgrs.br/~labianchin).
 
-E-mail: luis.armandob \[ at \] gmail.com
+E-mail: blog \[ at \] l433.com
 
-Here are a list of posts of this blog:
+Some posts of this blog:
 
 <ul class="posts">
   {% for post in site.posts %}
