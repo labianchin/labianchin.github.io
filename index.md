@@ -7,9 +7,9 @@ tagline:
 
 Software engineer, software developer consultant and computer scientist. Graduated from [Federal University of Rio Grande do Sul](http://ufrgs.br/) in 2012. Technical interests include programming contests and challenges, software engineering techniques, Functional Programming, DevOps, Artificial Intelligence, Machine Learning and Information Retrieval.
 
-This blog is a replacement of my old wiki website [http://inf.ufrgrs.br/~labianchin](http://inf.ufrgrs.br/~labianchin).
+This blog is a replacement of my old wiki website [http://inf.ufrgrs.br/~labianchin](http://inf.ufrgrs.br/~labianchin). This space is intended to share some knowledge.
 
-E-mail: blog \[ at \] l433.com
+E-mail: me \[ at \] labianchin.me
 
 Some posts of this blog:
 

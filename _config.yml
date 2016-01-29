@@ -13,13 +13,13 @@ markdown: redcarpet
 #
 title : Luís Armando Bianchin
 description: A blog with some ideas
-url: http://blog.luisarmando.net/
+url: http://blog.labianchin.me/
 tagline: .
 author :
   name : Luís Armando Bianchin
-  email : blog@luisarmando.net
-  github : luisarmando
-  twitter : luisarmandob
+  email : blog@labianchin.me
+  github : labianchin
+  twitter : labianchin
   feedburner : luis.armandob
 
 # The production_url is only used when full-domain names are needed
@@ -30,7 +30,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url: http://blog.luisarmando.net/
+production_url: http://blog.labianchin.me/
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
