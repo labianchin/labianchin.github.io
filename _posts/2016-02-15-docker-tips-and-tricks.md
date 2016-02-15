@@ -322,3 +322,6 @@ Also, still in build time, do not add data to paths that have been previously de
 
 Read more about it here in [Jérôme Petazzoni's explanation](https://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/).
 
+### Conclusion
+
+That was my list of tips and tricks for Docker. Please, feel free to provide feedback and share your tips and tricks in the comments below.
