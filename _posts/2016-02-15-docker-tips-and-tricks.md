@@ -325,3 +325,5 @@ Read more about it here in [Jérôme Petazzoni's explanation](https://jpetazzo.g
 ### Conclusion
 
 That was my list of tips and tricks for Docker. Please, feel free to provide feedback and share your tips and tricks in the comments below.
+
+I would also like to thank [Bruno Tavares](https://twitter.com/bltavares) and [Adriano Bonat](https://twitter.com/tanob) for the review of this article.
